@@ -165,7 +165,7 @@ typedef int ( *ADL_DISPLAY_CUSTOMIZEDMODE_VALIDATE ) (int iAdapterIndex, int iDi
 typedef int ( *ADL_DISPLAY_UNDERSCAN_SET ) (int iAdapterIndex, int iDisplayIndex, int iCurrent);
 typedef int ( *ADL_DISPLAY_UNDERSCAN_GET ) (int iAdapterIndex, int iDisplayIndex, int *lpCurrent, int *lpDefault, int *lpMin, int *lpMax, int *lpStep);
 typedef int ( *ADL_DISPLAY_OVERSCAN_SET ) (int iAdapterIndex, int iDisplayIndex, int iCurrent);
-typedef int ( *ADL_DISPLAY_OVERSCAN_GET ) (int iAdapterIndex, int iDisplayIndex, int *lpCurrent, int *lpDefualt, int *lpMin, int *lpMax, int *lpStep);
+typedef int ( *ADL_DISPLAY_OVERSCAN_GET ) (int iAdapterIndex, int iDisplayIndex, int *lpCurrent, int *lpDefault, int *lpMin, int *lpMax, int *lpStep);
 
 // ADL Display/Overlay
 typedef int ( *ADL_DISPLAY_CONTROLLEROVERLAYADJUSTMENTCAPS_GET ) (int iAdapterIndex, ADLControllerOverlayInput *lpOverlayInput, ADLControllerOverlayInfo *lpCapsInfo);
